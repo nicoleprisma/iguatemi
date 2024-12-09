@@ -462,6 +462,12 @@
 .menu-bar {
   position: sticky !important;
   border-bottom: 1px solid var(--text-grey-scale-04);
+
+  .logo-header {
+img {
+  width: 150px;
+}
+  }
 }
 
 .headerFixoMenu.menu-bar {
