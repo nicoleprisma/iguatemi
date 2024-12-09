@@ -1,65 +1,65 @@
 // FONT MATTER
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterLight.ttf") format("truetype"),
-  url("/fonts/Matter/MatterLight.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterLight.ttf") format("truetype"),
+  url("../fonts/Matter/MatterLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterLightItalic.ttf") format("truetype"),
-  url("/fonts/Matter/MatterLightItalic.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterLightItalic.ttf") format("truetype"),
+  url("../fonts/Matter/MatterLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterRegular.ttf") format("truetype"),
-  url("/fonts/Matter/MatterRegular.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterRegular.ttf") format("truetype"),
+  url("../fonts/Matter/MatterRegular.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterRegularItalic.ttf") format("truetype"),
-  url("/fonts/Matter/MatterRegularItalic.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterRegularItalic.ttf") format("truetype"),
+  url("../fonts/Matter/MatterRegularItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterSemiBold.ttf") format("truetype"),
-  url("/fonts/Matter/MatterSemiBold.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterSemiBold.ttf") format("truetype"),
+  url("../fonts/Matter/MatterSemiBold.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterSemiBoldItalic.ttf") format("truetype"),
-  url("/fonts/Matter/MatterSemiBoldItalic.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterSemiBoldItalic.ttf") format("truetype"),
+  url("../fonts/Matter/MatterSemiBoldItalic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterBold.ttf") format("truetype"),
-  url("/fonts/Matter/MatterBold.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterBold.ttf") format("truetype"),
+  url("../fonts/Matter/MatterBold.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Matter;
-  src: url("/fonts/Matter/MatterBoldItalic.ttf") format("truetype"),
-  url("/fonts/Matter/MatterBoldItalic.woff") format("woff");
+  font-family: 'Matter';
+  src: url("../fonts/Matter/MatterBoldItalic.ttf") format("truetype"),
+  url("../fonts/Matter/MatterBoldItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
@@ -67,17 +67,17 @@
 // FONT CONCRETTE
 
 @font-face {
-  font-family: Concrette;
-  src: url("/fonts/Concrette/ConcretteM-Thin.ttf") format("truetype"),
-  url("/fonts/Concretee/ConcretteM-Thin.woff") format("woff");
+  font-family: 'Concrette';
+  src: url("../fonts/Concrette/ConcretteM-Thin.ttf") format("truetype"),
+  url("../fonts/Concretee/ConcretteM-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Concrette;
-  src: url("/fonts/Concrette/ConcretteM-Medium.ttf") format("truetype"),
-  url("/fonts/Concretee/ConcretteM-Medium.woff") format("woff");
+  font-family: 'Concrette';
+  src: url("../fonts/Concrette/ConcretteM-Medium.ttf") format("truetype"),
+  url("../fonts/Concretee/ConcretteM-Medium.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
@@ -102,7 +102,7 @@
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  text-transform: none;
+  text-transform: none; 
   line-height: 1;
 
   -webkit-font-smoothing: antialiased;
