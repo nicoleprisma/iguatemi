@@ -24,6 +24,7 @@
           height: 690px;
           object-fit: cover;
           margin-left: auto;
+          filter: brightness(0.7);
 
           @media (max-width: 991px) {
             width: 100%;

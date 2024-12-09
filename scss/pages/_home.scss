@@ -55,7 +55,7 @@
 
       .slick-list {
         .slick-track {
-          .item {
+          .item { 
             font-family: var(--font-matter);
             font-weight: 300;
             font-size: 1.5rem;
@@ -74,6 +74,7 @@
         &:before {
           content: url("/images/icon-arrow.svg");
           opacity: 1;
+          font-family: unset;
         }
       }
 

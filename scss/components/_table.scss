@@ -4,6 +4,15 @@
   overflow-x: auto;
 }
 
+.table-dividendos {
+    tr {
+      td {
+        width: 100px;
+        min-width: unset !important;
+      }
+    }
+  }
+
 .table {
   width: 100%;
   margin-top: 24px;
