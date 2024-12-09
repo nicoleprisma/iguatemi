@@ -257,99 +257,6 @@
   position: sticky;
   top: 0;
 
-  .topbar {
-    background-color: var(--bg-topbar);
-    padding: 8px 0;
-
-    @media (max-width: 991px) {
-      display: none;
-    }
-
-    .itens {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .links-topo {
-        display: flex;
-        gap: 12px;
-        align-items: flex-start;
-
-        span {
-          font-family: var(--font-matter);
-          font-size: 0.75rem;
-          font-weight: 200;
-        }
-
-        a {
-          text-decoration: none;
-          font-size: 0.75rem;
-        }
-
-        .link-inst {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-
-          span {
-            color: var(--text-grey-scale-07);
-          }
-
-          img {
-            width: 12px;
-          }
-        }
-      }
-
-      .cotacoes {
-        height: 27px;
-        flex: 1;
-
-        iframe {
-          height: 27px;
-          width: 100%;
-        }
-      }
-
-      .acessibillity-bar {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-
-        .accessibility-tools {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          gap: 16px;
-        }
-
-        .idioma-itens {
-          display: flex;
-          gap: 4px;
-        }
-
-        a {
-          font-size: 0.75rem;
-          text-decoration: none;
-        }
-
-        button {
-          border: 0;
-          background: none;
-          padding: 0;
-          height: 18px;
-
-          span {
-            &:before {
-              color: var(--text-grey-scale-07);
-              filter: none;
-            }
-          }
-        }
-      }
-    }
-  }
-
   header {
     padding: 24px 0 0 0;
     display: flex;
@@ -458,6 +365,99 @@
     }
   }
 }
+
+.topbar {
+    background-color: var(--bg-topbar);
+    padding: 8px 0;
+
+    @media (max-width: 991px) {
+      display: none;
+    }
+
+    .itens {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .links-topo {
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+
+        span {
+          font-family: var(--font-matter);
+          font-size: 0.75rem;
+          font-weight: 200;
+        }
+
+        a {
+          text-decoration: none;
+          font-size: 0.75rem;
+        }
+
+        .link-inst {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+
+          span {
+            color: var(--text-grey-scale-07);
+          }
+
+          img {
+            width: 12px;
+          }
+        }
+      }
+
+      .cotacoes {
+        height: 27px;
+        flex: 1;
+
+        iframe {
+          height: 27px;
+          width: 100%;
+        }
+      }
+
+      .acessibillity-bar {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        .accessibility-tools {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 16px;
+        }
+
+        .idioma-itens {
+          display: flex;
+          gap: 4px;
+        }
+
+        a {
+          font-size: 0.75rem;
+          text-decoration: none;
+        }
+
+        button {
+          border: 0;
+          background: none;
+          padding: 0;
+          height: 18px;
+
+          span {
+            &:before {
+              color: var(--text-grey-scale-07);
+              filter: none;
+            }
+          }
+        }
+      }
+    }
+  }
 
 .menu-bar {
   position: sticky !important;
