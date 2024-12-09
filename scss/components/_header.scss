@@ -356,13 +356,14 @@
     flex-direction: column;
     justify-content: center;
     background-color: var(--bg-body);
+    border-bottom: 1px solid var(--text-grey-scale-04);
 
     .content {
       @media (max-width: 991px) {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: space-between; 
+        align-items: center; 
       }
 
       .logo {
