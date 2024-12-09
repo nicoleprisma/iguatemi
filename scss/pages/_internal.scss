@@ -5188,3 +5188,14 @@
     }
   }
 }
+
+.grafico-endividamento {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+  iframe {
+    width: 807px;
+    height: 371px;
+  }
+}
