@@ -45,7 +45,7 @@
 
   .box-resultados {
     display: flex;
-    margin-bottom: 32px;
+    margin: 32px 0;
 
     @media(max-width: 991px) {
       flex-direction: column;
