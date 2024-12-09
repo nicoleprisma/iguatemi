@@ -42,9 +42,10 @@
         width: 720px;
       }
 
-      @media (min-width: 992px) {
+      @media (min-width: 991px) {
         width: 991px;
       }
+
       @media (min-width: 1200px) {
         width: 1050px;
       }
@@ -53,6 +54,9 @@
         padding-left: 30px;
         padding-right: 30px;
         width: 100%;
+      }
+
+      @media (max-width: 991px) {
         margin-bottom: 80px;
       }
 

@@ -304,6 +304,10 @@ body {
       text-decoration: none;
       border-radius: 0px;
 
+      &:not(:last-of-type) {
+        margin-bottom: 16px;
+      }
+
       h3 {
         button {
           font-family: var(--font-matter);
@@ -392,16 +396,18 @@ body {
             list-style: none;
             width: 100%;
 
+            &:not(:last-of-type) {
+              margin-bottom: 16px;
+            }
+
             a {
               display: flex;
               width: 100%;
-              padding: 8px 16px;
+              padding: 0;
               text-decoration: none;
-              color: var(--menu-page-link, #1a1a1a);
-              font-family: var(--font-family-body, "Open Sans");
-              font-size: var(--Font-size-large, 16px);
+              color: var(--text-color);
               font-style: normal;
-              font-weight: 400;
+              font-weight: 300;
               line-height: 116%; /* 18.56px */
             }
           }
