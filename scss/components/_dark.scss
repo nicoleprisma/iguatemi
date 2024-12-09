@@ -1,0 +1,525 @@
+[data-theme="dark"] {
+  .logo-white {
+    display: block !important;
+  }
+
+  .logo-home {
+    display: none !important;
+  }
+
+  .banner-page
+    .swiper
+    .swiper-wrapper
+    .swiper-slide
+    .content-slide
+    .text-slide
+    .style-text {
+    background-color: #1d1d1d;
+  }
+
+  .grupo-page .title-grupo h2 {
+    color: white;
+  }
+
+  .grupo-page .title-grupo p {
+    color: white;
+  }
+
+  .grupo-page .title-grupo p span {
+    color: white;
+  }
+
+  .grupo-page .swiper-grupo .swiper .swiper-btn {
+    border: 1px solid white;
+  }
+
+  .grupo-page .swiper-grupo .swiper .swiper-button-next::after {
+    filter: grayscale(1) brightness(5.5);
+  }
+
+  .grupo-page .swiper-grupo .swiper .swiper-btn {
+    border: 1px solid white;
+  }
+
+  .grupo-page .swiper-grupo .swiper .swiper-button-prev::after {
+    filter: grayscale(1) brightness(5.5);
+  }
+
+  .grupo-page
+    .swiper-grupo
+    .swiper
+    .swiper-wrapper
+    .swiper-slide
+    .slide-banner:before {
+    background: linear-gradient(180deg, rgba(27, 69, 52, 0) 0%, #1d1d1d 100%);
+  }
+
+  .sobre-home {
+    background-color: #1d1d1d;
+  }
+
+  .sobre-home .content-current h1 {
+    color: black;
+  }
+
+  .sobre-home .content-current a {
+    background-color: black;
+  }
+
+  .numeros-reag {
+    background-color: #1d1d1d;
+    background-image: unset;
+  }
+
+  .numeros-reag .cards-numeros .line .first-card {
+    background-color: #1a1a1a;
+  }
+
+  .comunicacao-home .title-comunicacao h2 {
+    color: white;
+  }
+
+  .comunicacao-home .title-comunicacao a {
+    border: 1px solid white;
+    color: white;
+  }
+
+  .cards-comunicacao .swiper-slide:hover .disc {
+    background-color: #1a1a1a;
+  }
+
+  .cards-comunicacao .swiper-slide .content-card .main-informations h3 {
+    color: black !important;
+  }
+
+  .cards-comunicacao .swiper-pagination .swiper-pagination-bullet-active {
+    color: white;
+    background-color: white;
+  }
+
+  .midia-home .itens-midia .text-midia h3 {
+    color: white;
+  }
+
+  .midia-home .itens-midia .text-midia p {
+    color: white;
+  }
+
+  .midia-home .itens-midia .text-midia a {
+    color: white;
+    border: 1px solid white;
+  }
+
+  .midia-home .itens-midia .cards-midia .cards img {
+    filter: grayscale(1) brightness(1.5);
+  }
+
+  .parceiros-midia {
+    background-color: #1a1a1a;
+  }
+
+  .mailing-home .itens-mailing {
+    background-color: #1a1a1a;
+  }
+
+  .parceiros-midia img {
+    width: auto;
+    filter: grayscale(1) invert(1) brightness(2.5);
+  }
+
+  footer .content-footer .first-line .itens input[type="submit"] {
+    background-color: #1a1a1a;
+  }
+
+  footer .termos-final {
+    background-color: #1a1a1a;
+  }
+
+  .banner-internal .main-image:before {
+    background: linear-gradient(
+        180deg,
+        rgba(8, 81, 44, 0.29) 0%,
+        rgb(0 0 0 / 90%) 100%
+      ),
+      rgba(0, 0, 0, 0.4);
+  }
+
+  .banner-internal .main-image img {
+    filter: grayscale(1) brightness(0.5);
+  }
+
+  .banner-internal .pagination-banner .itens a.last-link {
+    color: white;
+  }
+
+  .about-reag .about-content h2 {
+    color: white;
+  }
+
+  .about-reag .about-content h3 {
+    color: white;
+  }
+
+  .about-reag .about-content p {
+    color: white;
+  }
+
+  .about-reag .about-content p span {
+    color: white;
+  }
+
+  .timeline-hist .timeline-dot {
+    background-color: white;
+  }
+
+  .timeline-hist .timeline-items::before {
+    background-color: white;
+  }
+
+  .timeline-hist .timeline-date p {
+    color: white;
+  }
+
+  .timeline-hist .timeline-date span {
+    color: white;
+  }
+
+  .full-team .team-cards .cards .content-person h3 {
+    color: white;
+  }
+
+  .full-team .team-cards .cards .content-person p {
+    color: white;
+  }
+
+  .full-team .team-cards .cards .social-person a {
+    color: white;
+  }
+
+  .full-team .team-cards .cards .social-person img {
+    filter: grayscale(1) brightness(4.5);
+  }
+
+  .main-modal-equipe .pagination-teams .btn-teams {
+    background-color: #1d1d1d;
+  }
+
+  // .full-screen-main-div img {
+  //   filter: grayscale(1) invert(1) brightness(1.5);
+  // }
+
+  .itens-list-principal .list a {
+    background-color: unset;
+    color: white;
+  }
+
+  .itens-list-principal .list a p {
+    color: white;
+  }
+
+  .itens-list-principal .list a img {
+    filter: grayscale(1) brightness(4.5);
+  }
+
+  .reag-trust .title-trust h2 {
+    color: white;
+  }
+
+  .reag-trust .title-trust p {
+    color: white;
+  }
+
+  .reag-trust .markdown-trust p {
+    color: white;
+  }
+
+  .reag-trust .markdown-trust p img {
+    filter: grayscale(1) brightness(4.5);
+  }
+
+  .atendimento-trust {
+    background-color: #1d1d1d;
+  }
+
+  .atendimento-trust .content-atendimento h2 {
+    color: white;
+  }
+
+  .atendimento-trust .content-atendimento p {
+    color: white;
+  }
+
+  .divulgacao-infos h2 {
+    color: white;
+  }
+
+  .title-fundos h3 {
+    color: white;
+  }
+
+  .tipos-fundos .cards {
+    background: #1a1a1a;
+  }
+
+  .item-accordion .names-accordion p {
+    color: black !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: black !important;
+  }
+
+  .title-wealth h2 {
+    color: white;
+  }
+
+  .title-wealth h3 {
+    color: white;
+  }
+
+  .flex-content .text-content p {
+    color: white;
+  }
+
+  .img-content img {
+    filter: grayscale(1);
+  }
+
+  .processo-wealth {
+    background-color: #1d1d1d;
+  }
+
+  .processo-wealth .processo-flex-content .text-processo h2 {
+    color: white;
+  }
+
+  .processo-wealth .processo-flex-content .text-processo p {
+    color: white;
+  }
+
+  .img-processo img {
+    filter: grayscale(1);
+  }
+
+  .propostas-wealth {
+    background-color: #1d1d1d;
+  }
+
+  .propostas-wealth .title-prop h2 {
+    color: white;
+  }
+
+  .propostas-wealth .cards-prop .cards p {
+    color: black;
+  }
+
+  .propostas-wealth .cards-prop .cards {
+    border: 1px solid black;
+  }
+
+  .assessoria .title-assessoria h2 {
+    color: white;
+  }
+
+  .assessoria .title-assessoria p {
+    color: white;
+  }
+
+  .assessoria .cards-assessoria .cards {
+    border: 1px solid black;
+  }
+
+  .assessoria .cards-assessoria .cards p {
+    color: rgb(0, 0, 0);
+  }
+
+  .assessoria h5 {
+    color: rgb(255, 255, 255);
+  }
+
+  .tabs-assessoria {
+    background-color: #1d1d1d;
+  }
+
+  .tabs-assessoria .title-tabs-assessoria h3 {
+    color: rgb(255, 255, 255);
+  }
+
+  .tabs-assessoria .content-tabs-assessoria .nav-tabs li a.active {
+    background-color: #1a1a1a;
+  }
+
+  .tabs-assessoria
+    .content-tabs-assessoria
+    .tab-content
+    .tab-pane
+    .content-tabs-main {
+    background-color: #1a1a1a;
+  }
+
+  .tabs-assessoria .content-tabs-assessoria .nav-tabs li a {
+    color: white;
+  }
+
+  .internacional .title-inter h2 {
+    color: white;
+  }
+
+  .internacional .title-inter h3 {
+    color: white;
+  }
+
+  .services-internacional .cards-services .cards {
+    background-color: #1a1a1a;
+  }
+
+  .internacional-last-text {
+    p {
+      color: white;
+    }
+  }
+
+  .credores .content-credores h3 {
+    color: white;
+  }
+
+  .credores .content-credores .btns-credores a {
+    background-color: #1a1a1a;
+  }
+
+  .cards-common-reag .cards:hover .disc {
+    background-color: #1a1a1a;
+  }
+
+  .educacao-financeira {
+    background-color: #1d1d1d;
+  }
+
+  .banner-internal .pagination-banner {
+    background-color: #1d1d1d;
+  }
+
+  .podcasts .flex-titles h2 {
+    color: white;
+  }
+
+  .podcasts .flex-titles .flex-texts p {
+    color: white;
+  }
+
+  .podcasts .flex-titles .flex-texts h4 {
+    color: white;
+  }
+
+  .podcasts .flex-titles .flex-texts a {
+    background-color: #1a1a1a;
+  }
+
+  .podcasts .flex-titles h2 {
+    color: white !important;
+  }
+
+  .infos-contato-reag .title-infos h2 {
+    color: white;
+  }
+
+  .infos-contato-reag .title-infos p {
+    color: white;
+  }
+
+  .checkbox p {
+    color: white;
+  }
+
+  .btns-main .up {
+    background-color: #1a1a1a;
+  }
+
+  .btns-main .clear {
+    color: white;
+  }
+
+  .box-infos-contato {
+    border: 1px solid white;
+  }
+
+  .box-infos-contato .line .content span {
+    color: white;
+  }
+
+  .box-infos-contato .line .content p {
+    color: white;
+  }
+
+  .box-infos-contato .line img {
+    filter: grayscale(1) brightness(3.5);
+  }
+
+  .tipos-fundos .cards:hover {
+    transition: 0.3s;
+    background: var(--surface-secondary, #1c1e1e);
+  }
+
+  .itens-list-principal .list a:hover {
+    p {
+      color: black;
+    }
+
+    img {
+      filter: unset;
+    }
+  }
+
+  .title-list h2 {
+    color: white;
+  }
+
+  .list-container .itens-list-principal .texts-links span {
+    color: white;
+  }
+
+  .list-container .itens-list-principal a:hover .texts-links span {
+    color: black;
+  }
+
+  .box-destaques {
+    .item {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .list-com-data,
+  .list-sem-data {
+    img {
+      filter: brightness(10);
+    }
+  }
+
+  .table {
+    a {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .pagina-day {
+    .lista {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .icon-aumentar-fonte, .icon-diminuir-fonte {
+    filter: brightness(10);
+  }
+
+  .link-inst {
+    img {
+      filter: brightness(10);
+    }
+  }
+}
