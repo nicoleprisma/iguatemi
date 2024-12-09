@@ -25,14 +25,14 @@
           border-radius: 0;
 
           &:after {
-            background-image: url("/images/icon-less.svg");
+            background-image: url("../images/icon-less.svg");
             transform: none;
             margin-top: 14px;
         }
         }
 
         &:after {
-            background-image: url("/images/icon-more.svg");
+            background-image: url("../images/icon-more.svg");
         }
       }
     }
