@@ -14,6 +14,9 @@ const header = document.querySelector(".headerFixoMenu");
 const headerMenu = header.querySelector(".header");
 function menuFixo() {
   if (header) {
+    if (window.pageYOffset >= header.clientHeight) {
+      headerMenu.classList.add("fixed");
+    }
     if (
       window.pageYOffset >= header.clientHeight &&
       header.classList.contains("menu-bar") &&
