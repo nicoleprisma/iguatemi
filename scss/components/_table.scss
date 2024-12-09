@@ -6,6 +6,14 @@
 
 .table-dividendos {
     tr {
+
+      th {
+        &.filter {
+          .icon {
+            position: absolute;
+          }
+        }
+      }
       td {
         width: 100px;
         min-width: unset !important;
