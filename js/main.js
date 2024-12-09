@@ -79,7 +79,7 @@ $(document).ready(function () {
       fade: false,
       responsive: [
         {
-          breakpoint: 475,
+          breakpoint: 767,
           settings: {
             slidesToShow: 1,
           },
