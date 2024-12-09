@@ -26,6 +26,12 @@
         font-weight: 300;
         color: var(--text-color);
       }
+
+      &:focus {
+        &::placeholder {
+          color: var(--text-grey-scale-04);
+        }
+      }
     }
   }
 

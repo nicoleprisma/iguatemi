@@ -104,6 +104,7 @@ $(document).ready(function () {
       arrows: false,
       adaptiveHeight: true,
       infinite: false,
+      asNavFor: ".nav-central-result-destaque",
     });
 });
 
