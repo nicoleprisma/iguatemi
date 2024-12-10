@@ -197,10 +197,12 @@
   flex-wrap: wrap;
 
   li {
-    padding: 4px 8px;
+    padding: 8px 16px;
     border-radius: 2px;
-    background-color: var(--primary-01-var-1);
+    background-color: var(--bg-dark);
     color: var(--text-white);
+    font-family: var(--font-matter);
+    font-weight: 300;
 
     &:not(:last-child) {
       margin-right: 8px;
