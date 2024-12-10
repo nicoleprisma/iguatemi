@@ -571,7 +571,7 @@
     <section>
         <div class="container container-responsivo-full">
 
-            <div class="tabs-filter">
+            <div class="tabs-filter" data-aos="fade-up" data-aos-delay="100">
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-igti-tab" data-bs-toggle="pill"
@@ -610,7 +610,7 @@
 
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-igti" role="tabpanel" aria-labelledby="pills-igti-tab">
-                    <ul class="list-com-data">
+                    <ul class="list-com-data" data-aos="fade-up" data-aos-delay="200">
                         <li>
                             <div class="item">
                                 <span class="data">00/00/00</span>
@@ -696,14 +696,16 @@
                         </li>
                     </ul>
 
-                    <div class="list-paginacao">
-                        <ul>
-                            <li class="active"><a href="">01</a></li>
-                            <li><a href="">02</a></li>
-                            <li><a href="">03</a></li>
-                            <li><a href="">...</a></li>
-                        </ul>
-                    </div>
+                <div class="list-paginacao" data-aos="fade-up" data-aos-delay="300">
+                    <ul>
+                        <li><a href="#"><img src="images/arrow-next.svg" alt="Anterior"></a></li>
+                        <li class="active"><a href="">01</a></li>
+                        <li><a href="">02</a></li>
+                        <li><a href="">03</a></li>
+                        <li><a href="">...</a></li>
+                        <li class="active"><a href="#"><img src="images/arrow-next.svg" alt="Anterior"></a></li>
+                    </ul>
+                </div>
                 </div>
 
                 <div class="tab-pane fade" id="pills-igta" role="tabpanel" aria-labelledby="pills-igta-tab">
@@ -795,10 +797,12 @@
                     </ul>
                     <div class="list-paginacao">
                         <ul>
+                            <li><a href="#"><img src="images/arrow-next.svg" alt="Anterior"></a></li>
                             <li class="active"><a href="">01</a></li>
                             <li><a href="">02</a></li>
                             <li><a href="">03</a></li>
                             <li><a href="">...</a></li>
+                            <li class="active"><a href="#"><img src="images/arrow-next.svg" alt="Anterior"></a></li>
                         </ul>
                     </div>
                 </div>

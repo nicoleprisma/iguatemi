@@ -69,11 +69,10 @@
 
         &:first-of-type {
           text-align: left;
-          min-width: 250px;
         }
 
         &:not(first-of-type) {
-          min-width: 200px;
+          min-width: 160px;
         }
 
         a {

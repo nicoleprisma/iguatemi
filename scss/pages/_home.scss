@@ -98,16 +98,9 @@
       }
     }
 
-    .list-central-result-home {
+    .list-central-result {
       display: flex;
-      width: 100%;
-
-      .slick-list {
-        width: 100%;
-
-        .slick-track {
-          width: 100% !important;
-        }
+      overflow: hidden;
       }
     }
   }
@@ -137,7 +130,6 @@
       }
     }
   }
-}
 
 .box-portfolio {
   display: flex;

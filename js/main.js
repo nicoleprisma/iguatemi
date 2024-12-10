@@ -90,7 +90,7 @@ $(document).ready(function () {
 
     $(".nav-central-result-destaque").slick({
       slidesToScroll: 1,
-      asNavFor: ".list-central-result-home",
+      asNavFor: ".list-central-result",
       dots: false,
       arrows: true,
       slidesToShow: 1,
@@ -98,7 +98,7 @@ $(document).ready(function () {
       focusOnSelect: true,
     });
 
-    $(".list-central-result-home").slick({
+    $(".list-central-result").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,

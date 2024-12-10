@@ -96,14 +96,20 @@
       width: 100%;
       transition: 0.3s ease;
 
+      span {
+        transition: 0.3s ease;
+      }
+
       img {
         transition: 0.3s ease;
       }
 
-      img.download {
-        opacity: 0;
-        display: none;
-        transition: 0.3s ease;
+      .icon-download {
+        margin-left: auto;
+
+        img {
+          opacity: 0;
+        }
       }
     }
 
@@ -115,21 +121,9 @@
       border-bottom: 1px solid var(--text-grey-scale-08);
       transition: 0.3s ease;
 
-      a {
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        transition: 0.3s ease;
-
+      .icon-download {
         img {
-          opacity: 0;
-          display: none;
-          transition: 0.3s ease;
-
-          &.download {
-            opacity: 1;
-            display: block;
-            transition: 0.3s ease;
-          }
+          opacity: 1;
         }
       }
     }
@@ -303,6 +297,30 @@
           }
         }
       }
+    }
+  }
+}
+
+.list-eventos {
+  padding: 0;
+  margin-bottom: 0;
+
+  li {
+    padding: 16px;
+    border-bottom: 1px solid var(--text-grey-scale-02);
+    transition: 0.3s ease;
+    font-family: var(--font-matter);
+    font-weight: 300;
+
+     span {
+        display: block;
+        color: var(--text-grey-scale-05);
+        font-size: .88rem;
+      }
+
+    &:hover {
+      border-bottom: 1px solid var(--text-grey-scale-08);
+      transition: 0.3s ease;
     }
   }
 }

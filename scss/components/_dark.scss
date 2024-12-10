@@ -490,6 +490,12 @@
     }
   }
 
+  .list-destaques {
+    img {
+      filter: brightness(10);
+    }
+  }
+
   .list-com-data,
   .list-sem-data {
     img {
